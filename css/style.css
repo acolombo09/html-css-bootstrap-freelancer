@@ -17,6 +17,34 @@ hr{
   color: #2c3e50;
 }
 
+#my-secondary{
+  color: #2c3e50 !important;
+}
+
+/* Soluzione Michele per linee con stella */
+
+.box .box-icon{
+  line-height: 5rem;
+}
+
+.display-6{
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.box.box-icon .icon{
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.box.box-icon .line{
+  display: inline-block;
+  width: 5rem;
+  height: .2rem;
+  background-color: currentColor;
+  vertical-align: middle;
+}
+
 .avatar-img{
   width: 210px;
 }
@@ -57,4 +85,8 @@ hr{
   border-left: 0;
   border-right: 0;
   --bs-border-radius: 0;
+}
+
+#start-bootstrap{
+  color: var(--bs-primary)!important;
 }
